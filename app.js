@@ -616,13 +616,14 @@ const renderProducts = (products = MENU_ITEMS, lang = currentLang) => {
         // Get localized name and description
         const name = product.name[lang] || product.name.en || product.name;
         const description = product.description?.[lang] || product.description?.en || product.description;
-        const categoryTranslation = t(product.category.toLowerCase(), lang);
+        const categoryTranslation = t(product.category.toLowerCase(), lang) || product.category;
+        const firstPriceSize = Object.keys(product.prices)[0];
         
         return `
         <div class="product-card bg-surface-container-low rounded-xl overflow-hidden group hover:bg-surface-container transition-all duration-300 transform hover:-translate-y-1 cursor-pointer" data-id="${product.id}">
             <div class="relative h-64 overflow-hidden">
                 <img src="${placeholderImages[product.category] || placeholderImages.Burgers}" 
-                     alt="${name}" 
+                     alt="Altero Food - ${name} - أفضل مطعم  في أكادير" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute top-4 right-4 bg-secondary text-on-secondary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
                     ${categoryTranslation}
@@ -631,7 +632,7 @@ const renderProducts = (products = MENU_ITEMS, lang = currentLang) => {
             <div class="p-6 space-y-3">
                 <div class="flex justify-between items-start">
                     <h3 class="text-xl font-bold tracking-tight text-on-surface leading-tight">${name}</h3>
-                    <span class="text-primary font-extrabold text-lg" style="${lang === 'ar' ? 'text-align: left' : 'text-align: right'}">${siteConfig.currencySymbol}${product.prices.Medium}</span>
+                    <span class="text-primary font-extrabold text-lg" style="${lang === 'ar' ? 'text-align: left' : 'text-align: right'}">${siteConfig.currencySymbol}${product.prices[firstPriceSize]}</span>
                 </div>
                 <p class="text-on-surface-variant text-sm line-clamp-2 leading-relaxed">
                     ${description}
@@ -656,16 +657,17 @@ const renderProducts = (products = MENU_ITEMS, lang = currentLang) => {
 const renderSizeButtons = () => {
     if (!state.currentProduct) return;
 
-    const sizes = ['Medium', 'Big', 'Super', 'Family'];
-    const sizeKeys = ['sizeMedium', 'sizeBig', 'sizeSuper', 'sizeFamily'];
+    const sizes = Object.keys(state.currentProduct.prices);
     
-    elements.sizeButtonsContainer.innerHTML = sizes.map((size, index) => `
+    elements.sizeButtonsContainer.innerHTML = sizes.map((size) => {
+        const sizeKey = 'size' + size.replace(/\s+/g, '');
+        return `
         <button class="size-btn group flex flex-col items-center justify-center py-4 rounded-xl border border-outline-variant/20 bg-surface-container hover:bg-primary/10 hover:border-primary transition-all duration-300 ${size === state.selectedSize ? 'active' : ''}" 
                 data-size="${size}">
-            <span class="text-xs uppercase tracking-tighter text-outline group-hover:text-primary transition-colors" data-t="${sizeKeys[index]}">${t(sizeKeys[index], currentLang)}</span>
-            <span class="text-sm font-bold">$${state.currentProduct.prices[size]}</span>
+            <span class="text-xs uppercase tracking-tighter text-outline group-hover:text-primary transition-colors" data-t="${sizeKey}">${t(sizeKey, currentLang) || size}</span>
+            <span class="text-sm font-bold">${siteConfig.currencySymbol}${state.currentProduct.prices[size]}</span>
         </button>
-    `).join('');
+    `}).join('');
 
     // Attach click listeners to size buttons
     elements.sizeButtonsContainer.querySelectorAll('.size-btn').forEach(btn => {
@@ -686,8 +688,9 @@ const openModal = (productId) => {
 
     // Update state
     state.currentProduct = product;
-    state.selectedSize = 'Medium';
-    state.currentPrice = product.prices.Medium;
+    const availableSizes = Object.keys(product.prices);
+    state.selectedSize = availableSizes[0];
+    state.currentPrice = product.prices[availableSizes[0]];
     state.quantity = 1;
 
     // Update modal content with proper multilingual support
@@ -696,7 +699,7 @@ const openModal = (productId) => {
     const categoryTranslation = t(product.category.toLowerCase(), currentLang);
     
     elements.modalImage.src = placeholderImages[product.category] || placeholderImages.Burgers;
-    elements.modalImage.alt = name;
+    elements.modalImage.alt = `Altero Food - ${name} - أفضل مطعم  في أكادير`;
     elements.modalName.textContent = name;
     elements.modalCategory.textContent = categoryTranslation;
     elements.modalDescription.textContent = description;

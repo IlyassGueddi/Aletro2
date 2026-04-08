@@ -33,203 +33,67 @@ export const siteConfig = {
 // ============================================
 export const translations = {
   en: {
-    // Navigation
-    home: "Home",
-    menu: "Menu",
-    reservations: "Reservations",
-    
-    // Hero Section
-    limitedEdition: "Limited Edition",
-    getDiscount: "GET 50% OFF",
-    noirSelection: "Noir Selection",
-    heroDescription: "Experience the peak of gastronomic artistry with our signature curated plates, now at half the price for loyal patrons.",
-    orderNow: "Order Now",
-    
-    // Categories
-    exploreCategories: "Explore Categories",
-    all: "All",
-    burgers: "Burgers",
-    pizza: "Pizza",
-    pasta: "Pasta",
-    salads: "Salads",
-    sides: "Sides",
-    desserts: "Desserts",
-    beverages: "Beverages",
-    
-    // Modal
-    selectSize: "Select Size",
-    medium: "Medium",
-    big: "Big",
-    super: "Super",
-    family: "Family",
-    quantity: "Quantity",
-    addToOrder: "Add to Order",
-    addedToBag: "Added to Bag",
-    calories: "Calories",
-    keyIngredients: "Key Ingredients",
-    
-    // Sizes
-    sizeMedium: "Medium",
-    sizeBig: "Big",
-    sizeSuper: "Super",
-    sizeFamily: "Family",
-    
-    // Search
-    searchPlaceholder: "Search culinary noir...",
-    
-    // Common
-    close: "Close",
-    remove: "Remove",
-    add: "Add",
-    cart: "Shopping Bag",
-    clearCart: "Clear Bag",
-    
-    // Order Form
-    yourName: "Your Name",
-    yourAddress: "Your Address",
-    
-    // Additional i18n keys
-    pageTitle: "Altero Food - The Culinary Noir",
-    brandName: "Altero Food",
-    closeModal: "Close",
-    cartEmptyMessage: "Your bag is empty",
-    cartTotal: "Total",
-    customerNamePlaceholder: "Your Name",
-    customerAddressPlaceholder: "Your Address",
-    clearBagButton: "Clear Bag",
-    confirmOrderButton: "Confirm Order",
-    
-    // Product modal specific keys
-    signatureBlend: "The Signature Blend",
-    productName: "Truffle Noir Wagyu",
-    calories: "740 Calories",
-    price: "$42",
-    decrement: "remove",
-    increment: "add",
-    addToOrder: "Add to Order",
-    
-    // Search
-    searchPlaceholder: "Search culinary noir..."
+    home: "Home", menu: "Menu", reservations: "Reservations",
+    limitedEdition: "Limited Edition", getDiscount: "GET 50% OFF", noirSelection: "Noir Selection",
+    heroDescription: "Experience the peak of gastronomic artistry with our signature curated plates.",
+    orderNow: "Order Now", exploreCategories: "Explore Categories", all: "All",
+    pizzas: "Pizzas", burgers: "Burgers", tacosSandwiches: "Tacos & Sandwiches",
+    mainsPastas: "Main Dishes & Pasta", salads: "Salads", beverages: "Beverages",
+    selectSize: "Select Size", quantity: "Quantity", addToOrder: "Add to Order",
+    addedToBag: "Added to Bag", calories: "Calories", keyIngredients: "Key Ingredients",
+    sizeMedium: "Medium", sizeBig: "Big", sizeSuperFamily: "Super Family",
+    sizeSansFries: "Without Fries", sizeAvecFries: "With Fries", sizeStandard: "Standard",
+    sizeGratinated: "Gratinated", sizeSmall: "Small", sizeLarge: "Large",
+    sizePetite: "Petite", sizeGrande: "Grande", 
+    sizeQuarter: "Quarter", sizeHalf: "Half", sizeWhole: "Whole",
+    searchPlaceholder: "Search culinary noir...", close: "Close", remove: "Remove",
+    add: "Add", cart: "Shopping Bag", clearCart: "Clear Bag", yourName: "Your Name",
+    yourAddress: "Your Address", pageTitle: "Altero Food - The Culinary Noir",
+    brandName: "Altero Food", closeModal: "Close", cartEmptyMessage: "Your bag is empty",
+    cartTotal: "Total", customerNamePlaceholder: "Your Name", customerAddressPlaceholder: "Your Address",
+    clearBagButton: "Clear Bag", confirmOrderButton: "Confirm Order"
   },
-  
   fr: {
-    // Navigation
-    home: "Accueil",
-    menu: "Menu",
-    reservations: "Réservations",
-    
-    // Hero Section
-    limitedEdition: "Édition Limitée",
-    getDiscount: "50% DE RÉDUCTION",
-    noirSelection: "Sélection Noir",
-    heroDescription: "Découvrez le summum de l'art gastronomique avec nos plats signatures, maintenant à moitié prix pour nos fidèles clients.",
-    orderNow: "Commander",
-    
-    // Categories
-    exploreCategories: "Explorer les Catégories",
-    all: "Tout",
-    burgers: "Burgers",
-    pizza: "Pizza",
-    pasta: "Pâtes",
-    salads: "Salades",
-    sides: "Accompagnements",
-    desserts: "Desserts",
-    beverages: "Boissons",
-    
-    // Modal
-    selectSize: "Choisir la Taille",
-    medium: "Moyen",
-    big: "Grand",
-    super: "Super",
-    family: "Familial",
-    quantity: "Quantité",
-    addToOrder: "Ajouter à la Commande",
-    addedToBag: "Ajouté au Panier",
-    calories: "Calories",
-    keyIngredients: "Ingrédients Clés",
-    
-    // Sizes
-    sizeMedium: "Moyen",
-    sizeBig: "Grand",
-    sizeSuper: "Super",
-    sizeFamily: "Familial",
-    
-    // Search
-    searchPlaceholder: "Rechercher dans le menu...",
-    
-    // Common
-    close: "Fermer",
-    remove: "Retirer",
-    add: "Ajouter",
-    cart: "Panier",
-    clearCart: "Vider le Panier",
-    
-    // Order Form
-    yourName: "Votre Nom",
-    yourAddress: "Votre Adresse",
-    
-    // Search
-    searchPlaceholder: "Rechercher dans le menu..."
+    home: "Accueil", menu: "Menu", reservations: "Réservations",
+    limitedEdition: "Édition Limitée", getDiscount: "50% DE RÉDUCTION", noirSelection: "Sélection Noir",
+    heroDescription: "Découvrez le summum de l'art gastronomique avec nos plats signatures.",
+    orderNow: "Commander", exploreCategories: "Explorer les Catégories", all: "Tout",
+    pizzas: "Pizzas", burgers: "Burgers", tacosSandwiches: "Tacos et Sandwichs",
+    mainsPastas: "Plats et Pâtes", salads: "Salades", beverages: "Boissons et Jus",
+    selectSize: "Choisir la Taille", quantity: "Quantité", addToOrder: "Ajouter à la Commande",
+    addedToBag: "Ajouté au Panier", calories: "Calories", keyIngredients: "Ingrédients Clés",
+    sizeMedium: "Moyen", sizeBig: "Grand", sizeSuperFamily: "Super Familial",
+    sizeSansFries: "Sans Frites", sizeAvecFries: "Avec Frites", sizeStandard: "Standard",
+    sizeGratinated: "Gratiné", sizeSmall: "Petit", sizeLarge: "Grand",
+    sizePetite: "Petite", sizeGrande: "Grande",
+    sizeQuarter: "Quart", sizeHalf: "Demi", sizeWhole: "Entier",
+    searchPlaceholder: "Rechercher dans le menu...", close: "Fermer", remove: "Retirer",
+    add: "Ajouter", cart: "Panier", clearCart: "Vider le Panier", yourName: "Votre Nom",
+    yourAddress: "Votre Adresse", pageTitle: "Altero Food - The Culinary Noir",
+    brandName: "Altero Food", closeModal: "Fermer", cartEmptyMessage: "Votre panier est vide",
+    cartTotal: "Total", customerNamePlaceholder: "Votre Nom", customerAddressPlaceholder: "Votre Adresse",
+    clearBagButton: "Vider le Panier", confirmOrderButton: "Confirmer la Commande"
   },
-  
   ar: {
-    // Navigation
-    home: "الرئيسية",
-    menu: "القائمة",
-    reservations: "الحجوزات",
-    
-    // Hero Section
-    limitedEdition: "إصدار محدود",
-    getDiscount: "خصم 50%",
-    noirSelection: "تشكيلة نوار",
-    heroDescription: "استمتع بقمة الفن الغذائي مع أطباقنا المميزة، الآن بنصف السعر لعملائنا المخلصين.",
-    orderNow: "اطلب الآن",
-    
-    // Categories
-    exploreCategories: "استكشف الأقسام",
-    all: "الكل",
-    burgers: "برجر",
-    pizza: "بيتزا",
-    pasta: "باستا",
-    salads: "سلطات",
-    sides: "مقبلات",
-    desserts: "حلويات",
-    beverages: "مشروبات",
-    
-    // Modal
-    selectSize: "اختر الحجم",
-    medium: "وسط",
-    big: "كبير",
-    super: "سوبر",
-    family: "عائلي",
-    quantity: "الكمية",
-    addToOrder: "أضف للطلب",
-    addedToBag: "تمت الإضافة",
-    calories: "سعرة حرارية",
-    keyIngredients: "المكونات الأساسية",
-    
-    // Sizes
-    sizeMedium: "وسط",
-    sizeBig: "كبير",
-    sizeSuper: "سوبر",
-    sizeFamily: "عائلي",
-    
-    // Search
-    searchPlaceholder: "ابحث في القائمة...",
-    
-    // Common
-    close: "إغلاق",
-    remove: "إزالة",
-    add: "إضافة",
-    cart: "سلة التسوق",
-    clearCart: "إفراغ السلة",
-    
-    // Order Form
-    yourName: "اسمك",
-    yourAddress: "عنوانك",
-    
-    // Search
-    searchPlaceholder: "ابحث في القائمة..."
+    home: "الرئيسية", menu: "القائمة", reservations: "الحجوزات",
+    limitedEdition: "إصدار محدود", getDiscount: "خصم 50%", noirSelection: "تشكيلة نوار",
+    heroDescription: "استمتع بقمة الفن الغذائي مع أطباقنا المميزة.",
+    orderNow: "اطلب الآن", exploreCategories: "استكشف الأقسام", all: "الكل",
+    pizzas: "بيتزا", burgers: "برجر", tacosSandwiches: "طاكوس وسندوتشات",
+    mainsPastas: "أطباق وباستا", salads: "سلطات", beverages: "مشروبات وعصائر",
+    selectSize: "اختر الحجم", quantity: "الكمية", addToOrder: "أضف للطلب",
+    addedToBag: "تمت الإضافة", calories: "سعرة حرارية", keyIngredients: "المكونات الأساسية",
+    sizeMedium: "وسط", sizeBig: "كبير", sizeSuperFamily: "عائلي سوبر",
+    sizeSansFries: "بدون بطاطس", sizeAvecFries: "مع بطاطس", sizeStandard: "عادي",
+    sizeGratinated: "جراتان (مخبوز بالجبن)", sizeSmall: "صغير", sizeLarge: "كبير",
+    sizePetite: "صغيرة", sizeGrande: "كبيرة",
+    sizeQuarter: "ربع", sizeHalf: "نصف", sizeWhole: "كامل",
+    searchPlaceholder: "ابحث في القائمة...", close: "إغلاق", remove: "إزالة",
+    add: "إضافة", cart: "سلة التسوق", clearCart: "إفراغ السلة", yourName: "اسمك",
+    yourAddress: "عنوانك", pageTitle: "Altero Food - The Culinary Noir",
+    brandName: "Altero Food", closeModal: "إغلاق", cartEmptyMessage: "سلتك فارغة",
+    cartTotal: "المجموع", customerNamePlaceholder: "اسمك", customerAddressPlaceholder: "عنوانك",
+    clearBagButton: "إفراغ السلة", confirmOrderButton: "تأكيد الطلب"
   }
 };
 
@@ -237,398 +101,1259 @@ export const translations = {
 // MENU ITEMS
 // ============================================
 export const MENU_ITEMS = [
-  // ============================================
-  // BURGERS
-  // ============================================
   {
-    id: "burger-classic",
-    name: {
-      en: "Classic Burger",
-      fr: "Burger Classique",
-      ar: "برجر كلاسيكي"
+    "id": "pizza-orientale",
+    "name": {
+      "en": "Orientale Pizza",
+      "fr": "Pizza Orientale",
+      "ar": "بيتزا Orientale"
     },
-    description: {
-      en: "Juicy beef patty with lettuce, tomato, onion, and our signature sauce",
-      fr: "Juteux steak de bœuf avec laitue, tomate, oignon et notre sauce signature",
-      ar: "قطعة لحم البقري الطازجة مع الخس والطماطم والبصل وصلاتنا المميزة"
+    "description": {
+      "en": "Premium Orientale pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Orientale préparée avec des ingrédients frais",
+      "ar": "بيتزا Orientale فاخرة محضرة بمكونات طازجة"
     },
-    category: "Burgers",
-    prices: {
-      Medium: 7.99,
-      Big: 11.99,
-      Super: 14.99,
-      Family: 24.99
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "burger-classic",
-    name: {
-      en: "Classic Burger",
-      fr: "Burger Classique",
-      ar: "برجر كلاسيكي"
+    "id": "pizza-pepperoni",
+    "name": {
+      "en": "Pepperoni Pizza",
+      "fr": "Pizza Pepperoni",
+      "ar": "بيتزا Pepperoni"
     },
-    description: {
-      en: "Juicy beef patty with lettuce, tomato, onion, and our signature sauce",
-      fr: "Juteux steak de bœuf avec laitue, tomate, oignon et notre sauce signature",
-      ar: "قطعة لحم البقري الطازجة مع الخس والطماطم والبصل وصلاتنا المميزة"
+    "description": {
+      "en": "Premium Pepperoni pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Pepperoni préparée avec des ingrédients frais",
+      "ar": "بيتزا Pepperoni فاخرة محضرة بمكونات طازجة"
     },
-    category: "Burgers",
-    prices: {
-      Medium: 7.99,
-      Big: 11.99,
-      Super: 14.99,
-      Family: 24.99
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "burger-bacon",
-    name: "Bacon Deluxe",
-    description: "Double patty with crispy bacon, BBQ sauce, and onion rings",
-    category: "Burgers",
-    prices: {
-      Medium: 12.99,
-      Big: 15.99,
-      Super: 18.99,
-      Family: 32.99
+    "id": "pizza-tortiette",
+    "name": {
+      "en": "Tortiette Pizza",
+      "fr": "Pizza Tortiette",
+      "ar": "بيتزا Tortiette"
+    },
+    "description": {
+      "en": "Premium Tortiette pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Tortiette préparée avec des ingrédients frais",
+      "ar": "بيتزا Tortiette فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "burger-mushroom",
-    name: "Mushroom Swiss",
-    description: "Sautéed mushrooms and Swiss cheese with garlic aioli",
-    category: "Burgers",
-    prices: {
-      Medium: 11.49,
-      Big: 14.49,
-      Super: 17.49,
-      Family: 29.99
+    "id": "pizza-carbonara",
+    "name": {
+      "en": "Carbonara Pizza",
+      "fr": "Pizza Carbonara",
+      "ar": "بيتزا Carbonara"
+    },
+    "description": {
+      "en": "Premium Carbonara pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Carbonara préparée avec des ingrédients frais",
+      "ar": "بيتزا Carbonara فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "burger-spicy",
-    name: "Spicy Jalapeño",
-    description: "Jalapeños, pepper jack cheese, and chipotle mayo",
-    category: "Burgers",
-    prices: {
-      Medium: 10.99,
-      Big: 13.99,
-      Super: 16.99,
-      Family: 28.99
-    }
-  },
-
-  // ============================================
-  // PIZZA
-  // ============================================
-  {
-    id: "pizza-margherita",
-    name: "Margherita",
-    description: "Fresh mozzarella, tomato sauce, basil, and extra virgin olive oil",
-    category: "Pizza",
-    prices: {
-      Medium: 10.99,
-      Big: 14.99,
-      Super: 18.99,
-      Family: 28.99
+    "id": "pizza-queen",
+    "name": {
+      "en": "Queen Pizza",
+      "fr": "Pizza Queen",
+      "ar": "بيتزا Queen"
+    },
+    "description": {
+      "en": "Premium Queen pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Queen préparée avec des ingrédients frais",
+      "ar": "بيتزا Queen فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pizza-pepperoni",
-    name: "Pepperoni",
-    description: "Classic pepperoni with mozzarella and our special tomato sauce",
-    category: "Pizza",
-    prices: {
-      Medium: 12.99,
-      Big: 16.99,
-      Super: 21.99,
-      Family: 32.99
+    "id": "pizza-vegetarienne",
+    "name": {
+      "en": "Vegetarienne Pizza",
+      "fr": "Pizza Vegetarienne",
+      "ar": "بيتزا Vegetarienne"
+    },
+    "description": {
+      "en": "Premium Vegetarienne pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Vegetarienne préparée avec des ingrédients frais",
+      "ar": "بيتزا Vegetarienne فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pizza-vegetarian",
-    name: "Garden Vegetable",
-    description: "Bell peppers, mushrooms, onions, olives, and tomatoes",
-    category: "Pizza",
-    prices: {
-      Medium: 11.99,
-      Big: 15.99,
-      Super: 19.99,
-      Family: 30.99
+    "id": "pizza-thon",
+    "name": {
+      "en": "Thon Pizza",
+      "fr": "Pizza Thon",
+      "ar": "بيتزا Thon"
+    },
+    "description": {
+      "en": "Premium Thon pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Thon préparée avec des ingrédients frais",
+      "ar": "بيتزا Thon فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pizza-meat",
-    name: "Meat Lovers",
-    description: "Pepperoni, sausage, bacon, ham, and ground beef",
-    category: "Pizza",
-    prices: {
-      Medium: 14.99,
-      Big: 19.99,
-      Super: 24.99,
-      Family: 38.99
+    "id": "pizza-hawai",
+    "name": {
+      "en": "Hawai Pizza",
+      "fr": "Pizza Hawai",
+      "ar": "بيتزا Hawai"
+    },
+    "description": {
+      "en": "Premium Hawai pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Hawai préparée avec des ingrédients frais",
+      "ar": "بيتزا Hawai فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pizza-hawaiian",
-    name: "Hawaiian",
-    description: "Ham, pineapple, and extra cheese",
-    category: "Pizza",
-    prices: {
-      Medium: 11.49,
-      Big: 15.49,
-      Super: 19.49,
-      Family: 29.99
-    }
-  },
-
-  // ============================================
-  // PASTA
-  // ============================================
-  {
-    id: "pasta-carbonara",
-    name: "Spaghetti Carbonara",
-    description: "Creamy sauce with bacon, parmesan, and black pepper",
-    category: "Pasta",
-    prices: {
-      Medium: 11.99,
-      Big: 14.99,
-      Super: 17.99,
-      Family: 28.99
+    "id": "pizza-poulet",
+    "name": {
+      "en": "Poulet Pizza",
+      "fr": "Pizza Poulet",
+      "ar": "بيتزا Poulet"
+    },
+    "description": {
+      "en": "Premium Poulet pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Poulet préparée avec des ingrédients frais",
+      "ar": "بيتزا Poulet فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pasta-bolognese",
-    name: "Fettuccine Bolognese",
-    description: "Rich meat sauce with herbs and parmesan",
-    category: "Pasta",
-    prices: {
-      Medium: 12.49,
-      Big: 15.49,
-      Super: 18.49,
-      Family: 29.99
+    "id": "pizza-chawarma",
+    "name": {
+      "en": "Chawarma Pizza",
+      "fr": "Pizza Chawarma",
+      "ar": "بيتزا Chawarma"
+    },
+    "description": {
+      "en": "Premium Chawarma pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Chawarma préparée avec des ingrédients frais",
+      "ar": "بيتزا Chawarma فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pasta-alfredo",
-    name: "Chicken Alfredo",
-    description: "Creamy parmesan sauce with grilled chicken",
-    category: "Pasta",
-    prices: {
-      Medium: 13.99,
-      Big: 16.99,
-      Super: 19.99,
-      Family: 32.99
+    "id": "pizza-hot-dog",
+    "name": {
+      "en": "Hot Dog Pizza",
+      "fr": "Pizza Hot Dog",
+      "ar": "بيتزا Hot Dog"
+    },
+    "description": {
+      "en": "Premium Hot Dog pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Hot Dog préparée avec des ingrédients frais",
+      "ar": "بيتزا Hot Dog فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pasta-pesto",
-    name: "Penne Pesto",
-    description: "Fresh basil pesto with cherry tomatoes and pine nuts",
-    category: "Pasta",
-    prices: {
-      Medium: 11.49,
-      Big: 14.49,
-      Super: 17.49,
-      Family: 27.99
+    "id": "pizza-dinde",
+    "name": {
+      "en": "Dinde Pizza",
+      "fr": "Pizza Dinde",
+      "ar": "بيتزا Dinde"
+    },
+    "description": {
+      "en": "Premium Dinde pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Dinde préparée avec des ingrédients frais",
+      "ar": "بيتزا Dinde فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 35,
+      "Big": 55,
+      "SuperFamily": 70
     }
   },
   {
-    id: "pasta-seafood",
-    name: "Seafood Linguine",
-    description: "Mixed seafood in a garlic white wine sauce",
-    category: "Pasta",
-    prices: {
-      Medium: 15.99,
-      Big: 19.99,
-      Super: 23.99,
-      Family: 38.99
-    }
-  },
-
-  // ============================================
-  // SALADS
-  // ============================================
-  {
-    id: "salad-caesar",
-    name: "Caesar Salad",
-    description: "Romaine lettuce, parmesan, croutons, and Caesar dressing",
-    category: "Salads",
-    prices: {
-      Medium: 8.99,
-      Big: 11.99,
-      Super: 14.99,
-      Family: 22.99
+    "id": "pizza-beef",
+    "name": {
+      "en": "Beef Pizza",
+      "fr": "Pizza Beef",
+      "ar": "بيتزا Beef"
+    },
+    "description": {
+      "en": "Premium Beef pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Beef préparée avec des ingrédients frais",
+      "ar": "بيتزا Beef فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 40,
+      "Big": 60,
+      "SuperFamily": 80
     }
   },
   {
-    id: "salad-greek",
-    name: "Greek Salad",
-    description: "Feta cheese, olives, cucumber, tomatoes, and olive oil",
-    category: "Salads",
-    prices: {
-      Medium: 9.49,
-      Big: 12.49,
-      Super: 15.49,
-      Family: 24.99
+    "id": "pizza-mexicaine",
+    "name": {
+      "en": "Mexicaine Pizza",
+      "fr": "Pizza Mexicaine",
+      "ar": "بيتزا Mexicaine"
+    },
+    "description": {
+      "en": "Premium Mexicaine pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Mexicaine préparée avec des ingrédients frais",
+      "ar": "بيتزا Mexicaine فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 40,
+      "Big": 60,
+      "SuperFamily": 80
     }
   },
   {
-    id: "salad-chicken",
-    name: "Grilled Chicken Salad",
-    description: "Mixed greens with grilled chicken, avocado, and honey mustard",
-    category: "Salads",
-    prices: {
-      Medium: 11.99,
-      Big: 14.99,
-      Super: 17.99,
-      Family: 28.99
+    "id": "pizza-4-saisons",
+    "name": {
+      "en": "4 Saisons Pizza",
+      "fr": "Pizza 4 Saisons",
+      "ar": "بيتزا 4 Saisons"
+    },
+    "description": {
+      "en": "Premium 4 Saisons pizza prepared with fresh ingredients",
+      "fr": "Pizza premium 4 Saisons préparée avec des ingrédients frais",
+      "ar": "بيتزا 4 Saisons فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 40,
+      "Big": 60,
+      "SuperFamily": 80
     }
   },
   {
-    id: "salad-caprese",
-    name: "Caprese Salad",
-    description: "Fresh mozzarella, tomatoes, basil, and balsamic glaze",
-    category: "Salads",
-    prices: {
-      Medium: 9.99,
-      Big: 12.99,
-      Super: 15.99,
-      Family: 25.99
-    }
-  },
-
-  // ============================================
-  // SIDES
-  // ============================================
-  {
-    id: "side-fries",
-    name: "French Fries",
-    description: "Crispy golden fries with your choice of seasoning",
-    category: "Sides",
-    prices: {
-      Medium: 3.99,
-      Big: 5.49,
-      Super: 6.99,
-      Family: 10.99
+    "id": "pizza-4-fromages",
+    "name": {
+      "en": "4 Fromages Pizza",
+      "fr": "Pizza 4 Fromages",
+      "ar": "بيتزا 4 Fromages"
+    },
+    "description": {
+      "en": "Premium 4 Fromages pizza prepared with fresh ingredients",
+      "fr": "Pizza premium 4 Fromages préparée avec des ingrédients frais",
+      "ar": "بيتزا 4 Fromages فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 45,
+      "Big": 75,
+      "SuperFamily": 90
     }
   },
   {
-    id: "side-onion-rings",
-    name: "Onion Rings",
-    description: "Beer-battered onion rings with ranch dipping sauce",
-    category: "Sides",
-    prices: {
-      Medium: 4.49,
-      Big: 5.99,
-      Super: 7.49,
-      Family: 11.99
+    "id": "pizza-altero",
+    "name": {
+      "en": "Altero Pizza",
+      "fr": "Pizza Altero",
+      "ar": "بيتزا Altero"
+    },
+    "description": {
+      "en": "Premium Altero pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Altero préparée avec des ingrédients frais",
+      "ar": "بيتزا Altero فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 45,
+      "Big": 75,
+      "SuperFamily": 90
     }
   },
   {
-    id: "side-nuggets",
-    name: "Chicken Nuggets",
-    description: "Tender chicken nuggets with your choice of sauce",
-    category: "Sides",
-    prices: {
-      Medium: 5.99,
-      Big: 7.99,
-      Super: 9.99,
-      Family: 15.99
+    "id": "pizza-fruits-de-mer",
+    "name": {
+      "en": "Fruits de Mer Pizza",
+      "fr": "Pizza Fruits de Mer",
+      "ar": "بيتزا Fruits de Mer"
+    },
+    "description": {
+      "en": "Premium Fruits de Mer pizza prepared with fresh ingredients",
+      "fr": "Pizza premium Fruits de Mer préparée avec des ingrédients frais",
+      "ar": "بيتزا Fruits de Mer فاخرة محضرة بمكونات طازجة"
+    },
+    "category": "Pizzas",
+    "prices": {
+      "Medium": 45,
+      "Big": 75,
+      "SuperFamily": 90
     }
   },
   {
-    id: "side-mozzarella",
-    name: "Mozzarella Sticks",
-    description: "Breaded mozzarella sticks with marinara sauce",
-    category: "Sides",
-    prices: {
-      Medium: 5.49,
-      Big: 7.49,
-      Super: 9.49,
-      Family: 14.99
-    }
-  },
-
-  // ============================================
-  // DESSERTS
-  // ============================================
-  {
-    id: "dessert-brownie",
-    name: "Chocolate Brownie",
-    description: "Warm brownie with vanilla ice cream and chocolate sauce",
-    category: "Desserts",
-    prices: {
-      Medium: 5.99,
-      Big: 7.99,
-      Super: 9.99,
-      Family: 15.99
+    "id": "burger-hamburger",
+    "name": {
+      "en": "Hamburger Burger",
+      "fr": "Hamburger Burger",
+      "ar": "برجر Hamburger"
+    },
+    "description": {
+      "en": "Delicious Hamburger Burger served on a fresh bun",
+      "fr": "Délicieux Hamburger Burger servi sur un pain frais",
+      "ar": "Hamburger Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 18,
+      "AvecFries": 25
     }
   },
   {
-    id: "dessert-cheesecake",
-    name: "New York Cheesecake",
-    description: "Classic cheesecake with strawberry topping",
-    category: "Desserts",
-    prices: {
-      Medium: 6.49,
-      Big: 8.49,
-      Super: 10.49,
-      Family: 16.99
+    "id": "burger-cheese",
+    "name": {
+      "en": "Cheese Burger",
+      "fr": "Cheese Burger",
+      "ar": "برجر Cheese"
+    },
+    "description": {
+      "en": "Delicious Cheese Burger served on a fresh bun",
+      "fr": "Délicieux Cheese Burger servi sur un pain frais",
+      "ar": "Cheese Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 18,
+      "AvecFries": 25
     }
   },
   {
-    id: "dessert-icecream",
-    name: "Ice Cream Sundae",
-    description: "Three scoops with toppings and whipped cream",
-    category: "Desserts",
-    prices: {
-      Medium: 5.49,
-      Big: 7.49,
-      Super: 9.49,
-      Family: 14.99
-    }
-  },
-
-  // ============================================
-  // BEVERAGES
-  // ============================================
-  {
-    id: "beverage-soda",
-    name: "Soft Drinks",
-    description: "Coca-Cola, Sprite, Fanta, or Orange Juice",
-    category: "Beverages",
-    prices: {
-      Medium: 2.49,
-      Big: 3.49,
-      Super: 4.49,
-      Family: 6.99
+    "id": "burger-chicken",
+    "name": {
+      "en": "Chicken Burger",
+      "fr": "Chicken Burger",
+      "ar": "برجر Chicken"
+    },
+    "description": {
+      "en": "Delicious Chicken Burger served on a fresh bun",
+      "fr": "Délicieux Chicken Burger servi sur un pain frais",
+      "ar": "Chicken Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 18,
+      "AvecFries": 25
     }
   },
   {
-    id: "beverage-shake",
-    name: "Milkshake",
-    description: "Chocolate, Vanilla, or Strawberry",
-    category: "Beverages",
-    prices: {
-      Medium: 4.99,
-      Big: 6.49,
-      Super: 7.99,
-      Family: 12.99
+    "id": "burger-egg",
+    "name": {
+      "en": "Egg Burger",
+      "fr": "Egg Burger",
+      "ar": "برجر Egg"
+    },
+    "description": {
+      "en": "Delicious Egg Burger served on a fresh bun",
+      "fr": "Délicieux Egg Burger servi sur un pain frais",
+      "ar": "Egg Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 22,
+      "AvecFries": 29
     }
   },
   {
-    id: "beverage-coffee",
-    name: "Coffee",
-    description: "Freshly brewed Arabica coffee",
-    category: "Beverages",
-    prices: {
-      Medium: 2.99,
-      Big: 3.99,
-      Super: 4.99,
-      Family: 7.99
+    "id": "burger-double-cheese",
+    "name": {
+      "en": "Double Cheese Burger",
+      "fr": "Double Cheese Burger",
+      "ar": "برجر Double Cheese"
+    },
+    "description": {
+      "en": "Delicious Double Cheese Burger served on a fresh bun",
+      "fr": "Délicieux Double Cheese Burger servi sur un pain frais",
+      "ar": "Double Cheese Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 28,
+      "AvecFries": 35
+    }
+  },
+  {
+    "id": "burger-double-chicken",
+    "name": {
+      "en": "Double Chicken Burger",
+      "fr": "Double Chicken Burger",
+      "ar": "برجر Double Chicken"
+    },
+    "description": {
+      "en": "Delicious Double Chicken Burger served on a fresh bun",
+      "fr": "Délicieux Double Chicken Burger servi sur un pain frais",
+      "ar": "Double Chicken Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 28,
+      "AvecFries": 35
+    }
+  },
+  {
+    "id": "burger-mixte",
+    "name": {
+      "en": "Mixte Burger",
+      "fr": "Mixte Burger",
+      "ar": "برجر Mixte"
+    },
+    "description": {
+      "en": "Delicious Mixte Burger served on a fresh bun",
+      "fr": "Délicieux Mixte Burger servi sur un pain frais",
+      "ar": "Mixte Burger لذيذ يقدم على خبز طازج"
+    },
+    "category": "Burgers",
+    "prices": {
+      "SansFries": 28,
+      "AvecFries": 35
+    }
+  },
+  {
+    "id": "tacos-kefta",
+    "name": {
+      "en": "Tacos Kefta",
+      "fr": "Tacos Kefta",
+      "ar": "طاكوس Kefta"
+    },
+    "description": {
+      "en": "French tacos stuffed with Kefta and cheese sauce",
+      "fr": "Tacos français garni de Kefta et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Kefta وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-poulet",
+    "name": {
+      "en": "Tacos Poulet",
+      "fr": "Tacos Poulet",
+      "ar": "طاكوس Poulet"
+    },
+    "description": {
+      "en": "French tacos stuffed with Poulet and cheese sauce",
+      "fr": "Tacos français garni de Poulet et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Poulet وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-cordon-bleu",
+    "name": {
+      "en": "Tacos Cordon Bleu",
+      "fr": "Tacos Cordon Bleu",
+      "ar": "طاكوس Cordon Bleu"
+    },
+    "description": {
+      "en": "French tacos stuffed with Cordon Bleu and cheese sauce",
+      "fr": "Tacos français garni de Cordon Bleu et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Cordon Bleu وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-dinde",
+    "name": {
+      "en": "Tacos Dinde",
+      "fr": "Tacos Dinde",
+      "ar": "طاكوس Dinde"
+    },
+    "description": {
+      "en": "French tacos stuffed with Dinde and cheese sauce",
+      "fr": "Tacos français garni de Dinde et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Dinde وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-saucisse",
+    "name": {
+      "en": "Tacos Saucisse",
+      "fr": "Tacos Saucisse",
+      "ar": "طاكوس Saucisse"
+    },
+    "description": {
+      "en": "French tacos stuffed with Saucisse and cheese sauce",
+      "fr": "Tacos français garni de Saucisse et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Saucisse وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-escalope",
+    "name": {
+      "en": "Tacos Escalope",
+      "fr": "Tacos Escalope",
+      "ar": "طاكوس Escalope"
+    },
+    "description": {
+      "en": "French tacos stuffed with Escalope and cheese sauce",
+      "fr": "Tacos français garni de Escalope et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Escalope وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-shawarma",
+    "name": {
+      "en": "Tacos Shawarma",
+      "fr": "Tacos Shawarma",
+      "ar": "طاكوس Shawarma"
+    },
+    "description": {
+      "en": "French tacos stuffed with Shawarma and cheese sauce",
+      "fr": "Tacos français garni de Shawarma et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Shawarma وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-nuggets",
+    "name": {
+      "en": "Tacos Nuggets",
+      "fr": "Tacos Nuggets",
+      "ar": "طاكوس Nuggets"
+    },
+    "description": {
+      "en": "French tacos stuffed with Nuggets and cheese sauce",
+      "fr": "Tacos français garni de Nuggets et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Nuggets وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 28,
+      "Gratinated": 33
+    }
+  },
+  {
+    "id": "tacos-mixte",
+    "name": {
+      "en": "Tacos Mixte",
+      "fr": "Tacos Mixte",
+      "ar": "طاكوس Mixte"
+    },
+    "description": {
+      "en": "French tacos stuffed with Mixte and cheese sauce",
+      "fr": "Tacos français garni de Mixte et sauce fromagère",
+      "ar": "طاكوس فرنسي محشو بـ Mixte وصلصة الجبن"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 33,
+      "Gratinated": 38
+    }
+  },
+  {
+    "id": "panini-fromage",
+    "name": {
+      "en": "Panini Fromage",
+      "fr": "Panini Fromage",
+      "ar": "بانيني Fromage"
+    },
+    "description": {
+      "en": "Toasted Fromage panini with hot melted cheese",
+      "fr": "Panini Fromage toasté avec fromage fondu",
+      "ar": "بانيني Fromage محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 16
+    }
+  },
+  {
+    "id": "panini-thon",
+    "name": {
+      "en": "Panini Thon",
+      "fr": "Panini Thon",
+      "ar": "بانيني Thon"
+    },
+    "description": {
+      "en": "Toasted Thon panini with hot melted cheese",
+      "fr": "Panini Thon toasté avec fromage fondu",
+      "ar": "بانيني Thon محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 16
+    }
+  },
+  {
+    "id": "panini-dinde",
+    "name": {
+      "en": "Panini Dinde",
+      "fr": "Panini Dinde",
+      "ar": "بانيني Dinde"
+    },
+    "description": {
+      "en": "Toasted Dinde panini with hot melted cheese",
+      "fr": "Panini Dinde toasté avec fromage fondu",
+      "ar": "بانيني Dinde محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "panini-poulet",
+    "name": {
+      "en": "Panini Poulet",
+      "fr": "Panini Poulet",
+      "ar": "بانيني Poulet"
+    },
+    "description": {
+      "en": "Toasted Poulet panini with hot melted cheese",
+      "fr": "Panini Poulet toasté avec fromage fondu",
+      "ar": "بانيني Poulet محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "panini-crevettes",
+    "name": {
+      "en": "Panini Crevettes",
+      "fr": "Panini Crevettes",
+      "ar": "بانيني Crevettes"
+    },
+    "description": {
+      "en": "Toasted Crevettes panini with hot melted cheese",
+      "fr": "Panini Crevettes toasté avec fromage fondu",
+      "ar": "بانيني Crevettes محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 23
+    }
+  },
+  {
+    "id": "panini-mixte",
+    "name": {
+      "en": "Panini Mixte",
+      "fr": "Panini Mixte",
+      "ar": "بانيني Mixte"
+    },
+    "description": {
+      "en": "Toasted Mixte panini with hot melted cheese",
+      "fr": "Panini Mixte toasté avec fromage fondu",
+      "ar": "بانيني Mixte محمص مع جبن ذائب"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 23
+    }
+  },
+  {
+    "id": "sandwich3ish-dinde",
+    "name": {
+      "en": "Sandwich 3ish Dinde",
+      "fr": "Sandwich 3ish Dinde",
+      "ar": "سندويش عيش Dinde"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Dinde",
+      "fr": "Sandwich authentique avec Dinde",
+      "ar": "سندويش عيش تقليدي مع Dinde"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "sandwich3ish-saucisse",
+    "name": {
+      "en": "Sandwich 3ish Saucisse",
+      "fr": "Sandwich 3ish Saucisse",
+      "ar": "سندويش عيش Saucisse"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Saucisse",
+      "fr": "Sandwich authentique avec Saucisse",
+      "ar": "سندويش عيش تقليدي مع Saucisse"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "sandwich3ish-kefta",
+    "name": {
+      "en": "Sandwich 3ish Kefta",
+      "fr": "Sandwich 3ish Kefta",
+      "ar": "سندويش عيش Kefta"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Kefta",
+      "fr": "Sandwich authentique avec Kefta",
+      "ar": "سندويش عيش تقليدي مع Kefta"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "sandwich3ish-poulet",
+    "name": {
+      "en": "Sandwich 3ish Poulet",
+      "fr": "Sandwich 3ish Poulet",
+      "ar": "سندويش عيش Poulet"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Poulet",
+      "fr": "Sandwich authentique avec Poulet",
+      "ar": "سندويش عيش تقليدي مع Poulet"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "sandwich3ish-escalope",
+    "name": {
+      "en": "Sandwich 3ish Escalope",
+      "fr": "Sandwich 3ish Escalope",
+      "ar": "سندويش عيش Escalope"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Escalope",
+      "fr": "Sandwich authentique avec Escalope",
+      "ar": "سندويش عيش تقليدي مع Escalope"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 20
+    }
+  },
+  {
+    "id": "sandwich3ish-mixte",
+    "name": {
+      "en": "Sandwich 3ish Mixte",
+      "fr": "Sandwich 3ish Mixte",
+      "ar": "سندويش عيش Mixte"
+    },
+    "description": {
+      "en": "Authentic street-style sandwich with Mixte",
+      "fr": "Sandwich authentique avec Mixte",
+      "ar": "سندويش عيش تقليدي مع Mixte"
+    },
+    "category": "TacosSandwiches",
+    "prices": {
+      "Standard": 22
+    }
+  },
+  {
+    "id": "plat-kefta",
+    "name": {
+      "en": "Plate Kefta",
+      "fr": "Assiette Kefta",
+      "ar": "طبق Kefta"
+    },
+    "description": {
+      "en": "Hot plate of Kefta served with sides",
+      "fr": "Assiette chaude de Kefta avec garnitures",
+      "ar": "طبق Kefta ساخن مع مقبلات"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "plat-dinde",
+    "name": {
+      "en": "Plate Dinde",
+      "fr": "Assiette Dinde",
+      "ar": "طبق Dinde"
+    },
+    "description": {
+      "en": "Hot plate of Dinde served with sides",
+      "fr": "Assiette chaude de Dinde avec garnitures",
+      "ar": "طبق Dinde ساخن مع مقبلات"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "plat-escalope",
+    "name": {
+      "en": "Plate Escalope",
+      "fr": "Assiette Escalope",
+      "ar": "طبق Escalope"
+    },
+    "description": {
+      "en": "Hot plate of Escalope served with sides",
+      "fr": "Assiette chaude de Escalope avec garnitures",
+      "ar": "طبق Escalope ساخن مع مقبلات"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "plat-nuggets",
+    "name": {
+      "en": "Plate Nuggets",
+      "fr": "Assiette Nuggets",
+      "ar": "طبق Nuggets"
+    },
+    "description": {
+      "en": "Hot plate of Nuggets served with sides",
+      "fr": "Assiette chaude de Nuggets avec garnitures",
+      "ar": "طبق Nuggets ساخن مع مقبلات"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "plat-mixte",
+    "name": {
+      "en": "Plate Mixte",
+      "fr": "Assiette Mixte",
+      "ar": "طبق Mixte"
+    },
+    "description": {
+      "en": "Hot plate of Mixte served with sides",
+      "fr": "Assiette chaude de Mixte avec garnitures",
+      "ar": "طبق Mixte ساخن مع مقبلات"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 40
+    }
+  },
+  {
+    "id": "plat-poulet-roti",
+    "name": {
+      "en": "Roast Chicken",
+      "fr": "Poulet Rôti",
+      "ar": "دجاج محمر"
+    },
+    "description": {
+      "en": "Traditional moroccan styled roast chicken",
+      "fr": "Poulet rôti traditionnel",
+      "ar": "دجاج محمر بالطريقة التقليدية"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Quarter": 30,
+      "Half": 60,
+      "Whole": 120
+    }
+  },
+  {
+    "id": "pasta-spaghetti-napolitaine",
+    "name": {
+      "en": "Spaghetti Napolitaine",
+      "fr": "Spaghetti Napolitaine",
+      "ar": "باستا Spaghetti Napolitaine"
+    },
+    "description": {
+      "en": "Oven baked premium Spaghetti Napolitaine",
+      "fr": "Spaghetti Napolitaine premium cuit au four",
+      "ar": "مخبوزة في الفرن Spaghetti Napolitaine فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 25
+    }
+  },
+  {
+    "id": "pasta-spaghetti-bolognaise",
+    "name": {
+      "en": "Spaghetti Bolognaise",
+      "fr": "Spaghetti Bolognaise",
+      "ar": "باستا Spaghetti Bolognaise"
+    },
+    "description": {
+      "en": "Oven baked premium Spaghetti Bolognaise",
+      "fr": "Spaghetti Bolognaise premium cuit au four",
+      "ar": "مخبوزة في الفرن Spaghetti Bolognaise فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 40
+    }
+  },
+  {
+    "id": "pasta-lasagne",
+    "name": {
+      "en": "Lasagne",
+      "fr": "Lasagne",
+      "ar": "باستا Lasagne"
+    },
+    "description": {
+      "en": "Oven baked premium Lasagne",
+      "fr": "Lasagne premium cuit au four",
+      "ar": "مخبوزة في الفرن Lasagne فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "pasta-lasagne-fruits-de-mer",
+    "name": {
+      "en": "Lasagne Fruits de Mer",
+      "fr": "Lasagne Fruits de Mer",
+      "ar": "باستا Lasagne Fruits de Mer"
+    },
+    "description": {
+      "en": "Oven baked premium Lasagne Fruits de Mer",
+      "fr": "Lasagne Fruits de Mer premium cuit au four",
+      "ar": "مخبوزة في الفرن Lasagne Fruits de Mer فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 50
+    }
+  },
+  {
+    "id": "pasta-pasticcio",
+    "name": {
+      "en": "Pasticcio",
+      "fr": "Pasticcio",
+      "ar": "باستا Pasticcio"
+    },
+    "description": {
+      "en": "Oven baked premium Pasticcio",
+      "fr": "Pasticcio premium cuit au four",
+      "ar": "مخبوزة في الفرن Pasticcio فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 35
+    }
+  },
+  {
+    "id": "pasta-pasticcio-fruits-de-mer",
+    "name": {
+      "en": "Pasticcio Fruits de Mer",
+      "fr": "Pasticcio Fruits de Mer",
+      "ar": "باستا Pasticcio Fruits de Mer"
+    },
+    "description": {
+      "en": "Oven baked premium Pasticcio Fruits de Mer",
+      "fr": "Pasticcio Fruits de Mer premium cuit au four",
+      "ar": "مخبوزة في الفرن Pasticcio Fruits de Mer فاخرة"
+    },
+    "category": "MainsPastas",
+    "prices": {
+      "Standard": 50
+    }
+  },
+  {
+    "id": "salade-marocaine",
+    "name": {
+      "en": "Marocaine Salad",
+      "fr": "Salade Marocaine",
+      "ar": "سلطة Marocaine"
+    },
+    "description": {
+      "en": "Fresh Marocaine mix",
+      "fr": "Mélange Marocaine frais",
+      "ar": "مزيج Marocaine طازج"
+    },
+    "category": "Salads",
+    "prices": {
+      "Petite": 15,
+      "Grande": 20
+    }
+  },
+  {
+    "id": "salade-niçoise",
+    "name": {
+      "en": "Niçoise Salad",
+      "fr": "Salade Niçoise",
+      "ar": "سلطة Niçoise"
+    },
+    "description": {
+      "en": "Fresh Niçoise mix",
+      "fr": "Mélange Niçoise frais",
+      "ar": "مزيج Niçoise طازج"
+    },
+    "category": "Salads",
+    "prices": {
+      "Petite": 20,
+      "Grande": 30
+    }
+  },
+  {
+    "id": "salade-mexicaine",
+    "name": {
+      "en": "Mexicaine Salad",
+      "fr": "Salade Mexicaine",
+      "ar": "سلطة Mexicaine"
+    },
+    "description": {
+      "en": "Fresh Mexicaine mix",
+      "fr": "Mélange Mexicaine frais",
+      "ar": "مزيج Mexicaine طازج"
+    },
+    "category": "Salads",
+    "prices": {
+      "Petite": 20,
+      "Grande": 30
+    }
+  },
+  {
+    "id": "salade-poulet",
+    "name": {
+      "en": "Poulet Salad",
+      "fr": "Salade Poulet",
+      "ar": "سلطة Poulet"
+    },
+    "description": {
+      "en": "Fresh Poulet mix",
+      "fr": "Mélange Poulet frais",
+      "ar": "مزيج Poulet طازج"
+    },
+    "category": "Salads",
+    "prices": {
+      "Petite": 20,
+      "Grande": 30
+    }
+  },
+  {
+    "id": "salade-fruits-de-mer",
+    "name": {
+      "en": "Fruits de Mer Salad",
+      "fr": "Salade Fruits de Mer",
+      "ar": "سلطة Fruits de Mer"
+    },
+    "description": {
+      "en": "Fresh Fruits de Mer mix",
+      "fr": "Mélange Fruits de Mer frais",
+      "ar": "مزيج Fruits de Mer طازج"
+    },
+    "category": "Salads",
+    "prices": {
+      "Petite": 30,
+      "Grande": 50
+    }
+  },
+  {
+    "id": "jus-orange",
+    "name": {
+      "en": "Fresh Orange Juice",
+      "fr": "Jus de Orange Frais",
+      "ar": "عصير Orange طازج"
+    },
+    "description": {
+      "en": "Premium Orange juice",
+      "fr": "Jus premium de Orange",
+      "ar": "عصير Orange فاخر"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 13
+    }
+  },
+  {
+    "id": "jus-pomme",
+    "name": {
+      "en": "Fresh Pomme Juice",
+      "fr": "Jus de Pomme Frais",
+      "ar": "عصير Pomme طازج"
+    },
+    "description": {
+      "en": "Premium Pomme juice",
+      "fr": "Jus premium de Pomme",
+      "ar": "عصير Pomme فاخر"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 14
+    }
+  },
+  {
+    "id": "jus-avocat",
+    "name": {
+      "en": "Fresh Avocat Juice",
+      "fr": "Jus de Avocat Frais",
+      "ar": "عصير Avocat طازج"
+    },
+    "description": {
+      "en": "Premium Avocat juice",
+      "fr": "Jus premium de Avocat",
+      "ar": "عصير Avocat فاخر"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 16
+    }
+  },
+  {
+    "id": "jus-panaché",
+    "name": {
+      "en": "Fresh Panaché Juice",
+      "fr": "Jus de Panaché Frais",
+      "ar": "عصير Panaché طازج"
+    },
+    "description": {
+      "en": "Premium Panaché juice",
+      "fr": "Jus premium de Panaché",
+      "ar": "عصير Panaché فاخر"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 18
+    }
+  },
+  {
+    "id": "jus-tiramisu",
+    "name": {
+      "en": "Fresh Tiramisu Juice",
+      "fr": "Jus de Tiramisu Frais",
+      "ar": "عصير Tiramisu طازج"
+    },
+    "description": {
+      "en": "Premium Tiramisu juice",
+      "fr": "Jus premium de Tiramisu",
+      "ar": "عصير Tiramisu فاخر"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 25
+    }
+  },
+  {
+    "id": "boisson-soda",
+    "name": {
+      "en": "Soda Can",
+      "fr": "Cannette de Soda",
+      "ar": "صودا علبة"
+    },
+    "description": {
+      "en": "Refreshing cold soda",
+      "fr": "Soda rafraîchissant",
+      "ar": "صودا باردة منعشة"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Standard": 6
+    }
+  },
+  {
+    "id": "boisson-water",
+    "name": {
+      "en": "Mineral Water",
+      "fr": "Eau Minérale",
+      "ar": "مياه معدنية"
+    },
+    "description": {
+      "en": "Still mineral water",
+      "fr": "Eau minérale plate",
+      "ar": "مياه معدنية غير غازية"
+    },
+    "category": "Beverages",
+    "prices": {
+      "Small": 3,
+      "Medium": 5,
+      "Large": 10
     }
   }
 ];
+
 
 // ============================================
 // DERIVED EXPORTS
